@@ -1,0 +1,312 @@
+#home {
+    margin: 0;
+    background-image: url("../images/dwHome.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#home header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+#home header div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#home header a {
+    text-decoration: none;
+    color: white;
+}
+
+#home main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h1 {
+    color: red;
+    text-align: center;
+    font-size: 48px;
+}
+
+/* ***************************** ABOUT  ***************************** */
+
+p {
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#about {
+    margin: 0;
+    padding: 50px;
+    background-color: #8B4513;
+}
+
+#about header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#about header div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#about header a {
+    text-decoration: none;
+    color: white;
+}
+
+#about h1 {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+#about article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 300px;
+}
+
+#about article .films {
+    width: 500px;
+}
+
+#about article .img-films {
+    width: 500px;
+}
+
+#about article .family {
+    width: 500px;
+}
+
+#about article .img-family {
+    width: 500px;
+}
+
+#about article .award {
+    width: 500px;
+}
+
+#about article .img-award {
+    width: 500px;
+}
+
+/* *************************** WORK ************************* */
+
+#work h2 {
+    font-size: 32px;
+    text-shadow: 2px 2px 2px #fff;
+    text-align: center;
+}
+
+#work h3 {
+    text-align: center;
+}
+
+#work {
+    margin: 0;
+    padding: 50px;
+    background-color: #95a5a6;
+}
+
+#work header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#work header div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#work header a {
+    text-decoration: none;
+    color: white;
+}
+
+#work #beginning {
+    margin-bottom: 100px;
+}
+
+#work .beginning-img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: beige;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+#work .beginning-img a {
+    height: 300px;
+    text-decoration: none;
+    box-shadow: 0 3px 6px black;
+}
+
+
+#work .beginning-img a img {
+    height: 100%;
+}
+
+#work .beginning-img a img:hover {
+    transform: scale(1.1);
+    transition: all 0.6s;
+}
+
+#work .content p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+#work .content span {
+    font-weight: 700;
+}
+
+#work aside {
+    padding: 15px 12px;
+    background: #fff;
+    box-shadow: 0 3px 6px grey;
+    border-radius: 5px;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+
+}
+
+#work #goat {
+    margin-bottom: 100px;
+}
+
+
+#work .goat-img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:burlywood;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+#work .goat-img a {
+    height: 300px;
+    text-decoration: none;
+    box-shadow: 2px 5px 8px black;
+}
+
+
+#work .goat-img a img {
+    height: 100%;
+}
+
+#work #thrillers {
+    margin-bottom: 100px;
+}
+
+#work .thrillers-img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:darksalmon;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+#work .thrillers-img a {
+    height: 300px;
+    text-decoration: none;
+    box-shadow: 2px 5px 8px black;
+}
+
+#work .thrillers-img a img {
+    height: 100%;
+}
+
+#work .thrillers-img a img:hover {
+    transform: scale(1.1);
+    transition: all 0.6s;
+}
+
+#work #award .award-img {
+    display: flex;
+}
+
+#work #award .content {
+    background-color: brown;
+}
+
+/* ****************************** GALLERY ******************* */
+
+#gallery {
+    margin: 0;
+    padding: 50px;
+    background-color: #34495e;
+    height: 100vh;
+}
+
+#gallery header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+    font-size: 25px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#gallery header div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#gallery header a {
+    text-decoration: none;
+    color: white;
+}
+
+#gallery .gallery-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#gallery .gallery-img img {
+    width: 200px;
+    box-shadow: 2px 5px 8px black;
+}
